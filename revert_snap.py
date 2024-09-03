@@ -37,7 +37,17 @@ def main():
 
 if __name__ == "__main__":
 
-    # TODO: Get these vars from user args
+    '''
+    proxmox_host = sys.argv[1]
+    proxmox_user = sys.argv[2]
+    proxmox_password = sys.argv[3]
+    base_url = sys.argv[4]
+    node = sys.argv[5]
+    vm_id = sys.argv[6]
+    snapshot_name = sys.argv[7]
+    '''
+
+    
     proxmox_host = "10.250.0.14"
     proxmox_user = "api"
     proxmox_password = 'Aruba123!@#'
@@ -47,3 +57,5 @@ if __name__ == "__main__":
     snapshot_name = "no-folder"
 
     main()
+
+print("\n-> SCRIPT COMPLETE.\n")
