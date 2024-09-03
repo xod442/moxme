@@ -37,7 +37,6 @@ def main():
 
 if __name__ == "__main__":
 
-    '''
     proxmox_host = sys.argv[1]
     proxmox_user = sys.argv[2]
     proxmox_password = sys.argv[3]
@@ -45,17 +44,8 @@ if __name__ == "__main__":
     node = sys.argv[5]
     vm_id = sys.argv[6]
     snapshot_name = sys.argv[7]
-    '''
 
-
-    proxmox_host = "10.250.0.14"
-    proxmox_user = "api"
-    proxmox_password = 'xxxxxxxxxxxxxx'
-    base_url = f"https://{proxmox_host}:8006/api2/json"
-    node = "r4025-lg4-esx-02"
-    vm_id = "101"
-    snapshot_name = "no-folder"
 
     main()
 
-print("\n-> SCRIPT COMPLETE.\n")
+print(f"\n-> SCRIPT COMPLETE- VM has been reverted.ID = {vm_id}\n")

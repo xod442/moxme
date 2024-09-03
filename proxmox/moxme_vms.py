@@ -56,3 +56,13 @@ def revert_snapshot(ticket,csrf_token,base_url,node,vm_id,snapshot_name):
         sys.exit(1)
 
     return
+
+def list_all_vms():
+    pass
+
+    return 
+
+def get_vm_by_id():
+    pass
+
+    return 
