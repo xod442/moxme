@@ -1,4 +1,4 @@
-# moxie
+# moxme
 Yet another python bininding for proxmox server automation
 
 ## Access Program variables
